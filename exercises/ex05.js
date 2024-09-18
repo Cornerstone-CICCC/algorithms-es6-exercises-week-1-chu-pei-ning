@@ -26,3 +26,6 @@ var shirtSleeve = 8.47; // size M (medium)
 Then print N/A to the console because the measurements don't all match up with one particular size.
 
 */
+const shirtWidth = 20
+const shirtLength = 30 
+const shirtSleeve = 8
