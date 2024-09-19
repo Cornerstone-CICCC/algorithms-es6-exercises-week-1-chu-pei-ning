@@ -35,3 +35,10 @@ function makeLine(length) {
     }
     return line + "\n";
 }
+
+function buildTriangle(times) {
+  for (let i = 1 ; i <= times; i++){
+    console.log(makeLine(i))
+  }
+}
+buildTriangle(10)
