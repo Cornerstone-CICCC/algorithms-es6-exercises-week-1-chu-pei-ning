@@ -1,6 +1,6 @@
 /*
 
-Size	Width	Length	Sleeve
+Size	   Width      Length	    Sleeve
 S	    18"	    28"	    8.13"
 M	    20"	    29"	    8.38"
 L	    22"	    30"	    8.63"
@@ -26,6 +26,10 @@ var shirtSleeve = 8.47; // size M (medium)
 Then print N/A to the console because the measurements don't all match up with one particular size.
 
 */
-const shirtWidth = 20
-const shirtLength = 30 
-const shirtSleeve = 8
+let size = ""
+let shirtWidth = 1
+let shirtLength = 1
+let shirtSleeve = 1
+if (true) {
+
+}
