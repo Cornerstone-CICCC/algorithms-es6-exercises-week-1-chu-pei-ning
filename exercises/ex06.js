@@ -15,3 +15,16 @@ Use the eatsPlants and eatsAnimals variables to test your code.
 
 If eatsPlants equals true and eatsAnimals equals false, then herbivore should be printed to the console. 
 */
+
+let eatsPlants = false
+let eatsAnimals = false
+
+if (eatsPlants && !eatsAnimals ) {
+      console.log("This animal is herbivore.")
+} else if (!eatsPlants && eatsAnimals) {
+      console.log("This animal is carnivore.")
+} else if (eatsPlants && eatsAnimals) {
+      console.log("This animal is omnivore.")
+} else {
+      console.log(undefined)
+}
